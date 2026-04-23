@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\tests\\mathevaluatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:tests\\mathevaluatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\interfaces\\implementations\\gencode3\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:interfaces\\implementations\\gencode3\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\interfaces\\implementations\\gencode1\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:interfaces\\implementations\\gencode1\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\interfaces\\imathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:interfaces\\imathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|f:\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\lab1_mathevaluator\\interfaces\\implementations\\gencode2\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF58A160-C80C-4526-AE7F-A138C5B6CC7A}|Lab1_MathEvaluator.csproj|solutionrelative:interfaces\\implementations\\gencode2\\mathexpressionevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathEvaluatorTests.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Tests\\MathEvaluatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\MathEvaluatorTests.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Tests\\MathEvaluatorTests.cs",
+              "RelativeToolTip": "Tests\\MathEvaluatorTests.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwOYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T11:07:35.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathExpressionEvaluator.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode3\\MathExpressionEvaluator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Implementations\\GenCode3\\MathExpressionEvaluator.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode3\\MathExpressionEvaluator.cs",
+              "RelativeToolTip": "Interfaces\\Implementations\\GenCode3\\MathExpressionEvaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T11:02:19.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MathExpressionEvaluator.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode2\\MathExpressionEvaluator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Implementations\\GenCode2\\MathExpressionEvaluator.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode2\\MathExpressionEvaluator.cs",
+              "RelativeToolTip": "Interfaces\\Implementations\\GenCode2\\MathExpressionEvaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:59:54.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathExpressionEvaluator.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode1\\MathExpressionEvaluator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Implementations\\GenCode1\\MathExpressionEvaluator.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\Implementations\\GenCode1\\MathExpressionEvaluator.cs",
+              "RelativeToolTip": "Interfaces\\Implementations\\GenCode1\\MathExpressionEvaluator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:53:01.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMathExpressionEvaluator.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\IMathExpressionEvaluator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMathExpressionEvaluator.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\Interfaces\\IMathExpressionEvaluator.cs",
+              "RelativeToolTip": "Interfaces\\IMathExpressionEvaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:42:15.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTest1.cs",
+              "ToolTip": "F:\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u043D\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F\\Lab1_MathEvaluator\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:32:21.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
