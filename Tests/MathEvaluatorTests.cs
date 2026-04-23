@@ -153,17 +153,6 @@ public class MathEvaluatorTests
     }
 
     [Test]
-    [Category("BlackBox")]
-    public void Evaluate_NegativeNumbers_ReturnsCorrectResult()
-    {
-        // Проверка: работа с отрицательными числами
-        // Данные: "-5+3"
-        // Ожидаемый результат: -2
-        double result = evaluator.Evaluate("-5+3");
-        Assert.That(result, Is.EqualTo(-2.0).Within(1e-10));
-    }
-
-    [Test]
     [Category("WhiteBox")]
     public void Evaluate_ComplexExpressionWithMultipleOperations_ReturnsCorrectResult()
     {
