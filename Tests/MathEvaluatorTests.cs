@@ -108,7 +108,7 @@ public class MathEvaluatorTests
         // Проверка: обработка null
         // Данные: null
         // Ожидаемый результат: ArgumentException
-        Assert.Throws<ArgumentException>(() => evaluator.Evaluate(null));
+        Assert.Throws<ArgumentException>(() => evaluator.Evaluate(null!));
     }
 
     [Test]

@@ -196,3 +196,4 @@ F:\Тестирование программного обеспечения\Lab1
 F:\Тестирование программного обеспечения\Lab1_MathEvaluator\obj\Debug\net8.0\Lab1_MathEvaluator.pdb
 F:\Тестирование программного обеспечения\Lab1_MathEvaluator\obj\Debug\net8.0\Lab1_MathEvaluator.genruntimeconfig.cache
 F:\Тестирование программного обеспечения\Lab1_MathEvaluator\obj\Debug\net8.0\ref\Lab1_MathEvaluator.dll
+F:\Тестирование программного обеспечения\Lab1_MathEvaluator\obj\Debug\net8.0\Lab1_MathEvaluator.sourcelink.json

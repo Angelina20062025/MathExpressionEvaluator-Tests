@@ -107,6 +107,7 @@ namespace Lab1_MathEvaluator.Implementations.GenCode1
 
             int start = pos;
             bool hasSign = false;
+	    _ = hasSign;
 
             // Обработка унарного знака
             if (expression[pos] == '+' || expression[pos] == '-')

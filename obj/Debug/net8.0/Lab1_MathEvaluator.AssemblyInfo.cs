@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab1_MathEvaluator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfc2f1d17eb2998a17df16b3615c29d72456545c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab1_MathEvaluator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab1_MathEvaluator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
