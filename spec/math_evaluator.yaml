@@ -1,0 +1,152 @@
+module: Lab1_MathEvaluator
+
+non_functional_requirements:
+  - id: NFR-1
+    desc: "Результат вычислений не зависит от внешних факторов (время, ОС)"
+  - id: NFR-2
+    desc: "Обработка некорректных выражений не должна приводить к падению приложения"
+  - id: NFR-3
+    desc: "Числа с плавающей точкой обрабатываются с точностью до 1e-10"
+
+# Описание методов
+methods:
+  # ========== МЕТОД EVALUATE ==========
+  - name: Evaluate
+    req_functional: ["FR-1", "FR-2", "FR-3", "FR-4", "FR-5", "FR-6", "FR-7", "FR-8"]
+    req_non_functional: ["NFR-1", "NFR-2"]
+    signature: "double Evaluate(string expression)"
+    description: "Вычисляет арифметическое выражение без скобок"
+    
+    # Предусловия
+    pre: 
+      - "expression != null"
+      - "!string.IsNullOrWhiteSpace(expression)"
+    
+    # Постусловия (общие)
+    post: |
+      Возвращает double-значение, являющееся результатом вычисления выражения.
+      Соблюдается приоритет операций: * и / выполняются раньше + и -.
+      Пробелы в выражении игнорируются.
+    
+    # Исключения
+    exceptions:
+      - type: "ArgumentException"
+        condition: "expression == null || string.IsNullOrWhiteSpace(expression)"
+        message: "Выражение не может быть пустым"
+      - type: "ArgumentException"
+        condition: "выражение содержит недопустимые символы"
+        message: "Недопустимые символы в выражении"
+      - type: "DivideByZeroException"
+        condition: "деление на ноль"
+        message: "Деление на ноль невозможно"
+      - type: "ArgumentException"
+        condition: "выражение заканчивается оператором"
+        message: "Выражение не может заканчиваться оператором"
+    
+    #классы эквивалентности (генерируют тесты)
+    equivalence_classes:
+
+      - case: "Сложение двух целых положительных чисел"
+        inputs: ["2+3"]
+        expected: 5.0
+        tags: ["positive", "addition"]
+      
+      - case: "Вычитание двух целых положительных чисел"
+        inputs: ["10-4"]
+        expected: 6.0
+        tags: ["positive", "subtraction"]
+      
+      - case: "Умножение двух целых положительных чисел"
+        inputs: ["6*7"]
+        expected: 42.0
+        tags: ["positive", "multiplication"]
+      
+      - case: "Деление двух целых положительных чисел"
+        inputs: ["15/3"]
+        expected: 5.0
+        tags: ["positive", "division"]
+      
+      - case: "Приоритет операций (умножение раньше сложения)"
+        inputs: ["2+3*4"]
+        expected: 14.0
+        tags: ["positive", "priority"]
+      
+      - case: "Приоритет операций (деление раньше вычитания)"
+        inputs: ["10-4/2"]
+        expected: 8.0
+        tags: ["positive", "priority"]
+      
+      - case: "Сложное выражение со всеми операциями"
+        inputs: ["2+3*4-6/2"]
+        expected: 11.0
+        tags: ["positive", "complex"]
+      
+      - case: "Выражение с пробелами"
+        inputs: [" 5 + 8 "]
+        expected: 13.0
+        tags: ["positive", "whitespace"]
+      
+      - case: "Числа с плавающей точкой"
+        inputs: ["2.5*4.2"]
+        expected: 10.5
+        tags: ["positive", "float"]
+      
+      - case: "Отрицательное число в начале"
+        inputs: ["-5+3"]
+        expected: -2.0
+        tags: ["positive", "negative"]
+      
+      - case: "Умножение на ноль"
+        inputs: ["5*0"]
+        expected: 0.0
+        tags: ["positive", "zero"]
+      
+      - case: "Пустая строка"
+        inputs: [""]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Null вместо выражения"
+        inputs: [null]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Строка из пробелов"
+        inputs: ["   "]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Недопустимый символ (буква)"
+        inputs: ["2+a"]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Деление на ноль"
+        inputs: ["10/0"]
+        expected_exception: "DivideByZeroException"
+        tags: ["negative", "exception"]
+      
+      - case: "Выражение заканчивается оператором"
+        inputs: ["5+"]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Два оператора подряд"
+        inputs: ["2+-3"]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Число с двумя точками"
+        inputs: ["2..5+3"]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+      
+      - case: "Пустое выражение после пробелов"
+        inputs: ["     "]
+        expected_exception: "ArgumentException"
+        tags: ["negative", "exception"]
+
+      - case: "Очень большие числа"
+        inputs: ["9999999999*9999999999"]
+        expected_result_type: "не падает"
+        tags: ["boundary", "performance"]

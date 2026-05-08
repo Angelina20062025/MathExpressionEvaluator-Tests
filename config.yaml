@@ -1,0 +1,26 @@
+# Конфигурация генератора тестов
+
+target_language: csharp
+test_framework: nunit
+
+# Путь к спецификации
+spec_path: spec/math_evaluator.yaml
+
+# Выходная директория для сгенерированных тестов
+output_dir: tests/Generated
+
+# Пространство имён для тестов
+test_namespace: Lab1_MathEvaluator.Tests.Generated
+
+# Путь к интерфейсу
+interface_namespace: Lab1_MathEvaluator.Tests.Interfaces
+
+# Реализация для тестирования (по умолчанию)
+default_implementation: "MathExpressionEvaluator"
+implementation_namespace: "MathExpressionEvaluator.Implementations.GenCode1"
+
+# Параметры генерации
+generation:
+  use_test_cases: true
+  include_tracing_comments: true
+  precision: 1e-10
